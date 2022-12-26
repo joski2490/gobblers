@@ -52,11 +52,11 @@ const checkContact = (gobbler0, gobbler1) => {
 // initial spawn
 for (let i = 0; i < environment.initialGobblersCount; i++) {
   const gobblerParams = {
-    attackCoefficient: 0.5,
-    defenceCoefficient: 0.5,
+    attackCoefficient: 0.8,
+    defenceCoefficient: 0.8,
     energy: environment.initialGobblerEnergy,
     generation: 0,
-    photosynthesisCoefficient: 1,
+    photosynthesisCoefficient: 3, 
     v: 1,
     x: 0,
     y: 0,
